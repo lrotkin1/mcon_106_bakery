@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Maple Bakery!</title>
+</head>
+<body>
+<header>
+    <h1>Maple Bakery</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <figure>
+        <img src="images/logo_with_background.jfif" alt="Maple Bakery Logo"
+             width="400" height="300">
+        <figcaption>Handcrafted daily with love, butter, and real maple."</figcaption>
+    </figure>
+</header>
+
+<main>
+    <article>
+        <h2>Welcome to Maple Bakery, where every batch is baked fresh with warmth,
+            sweetness, and a touch of homegrown comfort.
+            Stop by today to treat yourself to our signature pastries and artisan breads!</h2>
+        <section>
+            <h3>Try some of our delicious homemade pastries </h3>
+        </section>
+        <section>
+            <h4>Maple Pecan Danish: A flaky, golden puff pastry swirled with rich brown
+                sugar and maple glaze, topped with toasted crunchy pecans for the
+                ultimate cozy morning bite.</h4>
+        </section>
+        <section>
+            <h4>Classic Butter Croissant: Expertly rolled with layers of European-style
+            butter, baked to a shattering crisp on the outside while remaining
+            ethereally soft and buttery inside.</h4>
+        </section>
+        <section>
+            <h4>Raspberry Almond Tart: A buttery shortcrust pastry filled with silky
+            almond frangipane and tart, vibrant red raspberries, finished with
+                a dusting of powdered sugar</h4>
+        </section>
+    </article>
+</main>
+
+<form action="/submit" method="POST">
+    <fieldset>
+        <legend>Catering Inquiry Form</legend>
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Tel Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="msg">Comments</label>
+        <textarea id="msg" name="msg" rows="4"></textarea>
+        <button type="submit">Submit Request</button>
+    </fieldset>
+</form>
+<footer>© 2026 Maple Bakery</footer>
+</body>
+</html>
